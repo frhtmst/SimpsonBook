@@ -12,8 +12,15 @@ import UIKit
 class Simpson {
     
     
-    var name = ""
-    var job = ""
-    var image = UIImage()
+    var name : String
+    var job : String
+    var image : UIImage
+    
+    init(nameInit: String, jobInit: String, imageInit: UIImage) {
+        self.name = nameInit
+        self.job = jobInit
+        self.image = imageInit
+    }
+     
     
 }
