@@ -13,6 +13,60 @@ class Simpson {
     
     
     var name : String
+    var age : Int
+    var job : String
+    var image : UIImage
+    
+    init(nameSimpson: String, ageSimpson: Int, jobSimpson: String, imageSimpson: UIImage) {
+        self.name = nameSimpson
+        self.age = ageSimpson
+        self.job = jobSimpson
+        self.image = imageSimpson
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*class Simpson {
+    
+    
+    var name : String
     var job : String
     var image : UIImage
     
@@ -24,3 +78,5 @@ class Simpson {
      
     
 }
+*/
+
